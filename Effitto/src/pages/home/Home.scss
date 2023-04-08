@@ -1,12 +1,26 @@
 .home {
   .features {
-    background-color: #f7efd0;
+    // background-color: #f7efd0;
+    background-color: lightslategray;
     display: flex;
     justify-content: center;
     padding: 100px 0px;
 
     &.dark {
       background-color: rgb(25, 24, 24);
+
+      .effitto{
+        font-family: 'Podkova', serif;
+        padding-right: 10px;
+        font-size: larger;
+      }
+
+      .effitto_button{
+        font-family: 'Podkova', serif;
+        // padding-right: 10px;
+        font-size: large;
+      }
+
 
       h1 {
         color: white !important;
@@ -68,9 +82,9 @@
           display: flex;
           align-items: center;
           gap: 10px;
-          font-weight: 500;
+          font-weight: 700;
           font-size: 18px;
-          color: #666;
+          color: #4e4e4e;
           img {
             width: 24px;
             height: 24px;
@@ -79,7 +93,7 @@
         p {
           font-size: 18px;
           font-weight: 300;
-          color: gray;
+          color: black;
         //   padding-left: 2rem;
           line-height: 28px;
           letter-spacing: 1px;
