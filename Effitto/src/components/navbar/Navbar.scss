@@ -3,11 +3,14 @@
     margin-top: 1rem;
     border-radius: 15px;
     display: flex;
+    // margin-left: 1.25rem;//added after changing the position from sticky to fixed
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    // background-color: black;
+    background-color: rgb(25, 24, 24);
     color: white;
-    position: sticky;
+    // position:fixed;
+    position:sticky;
     top: 0;
     z-index: 999;
     transition: 0.5s all ease;
@@ -16,6 +19,7 @@
     &.active {
       background-color: white;
       color: black;
+      // margin-top: 5rem;
   
       button {
         background-color: white !important;
